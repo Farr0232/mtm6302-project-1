@@ -1,0 +1,172 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* ENDS CSS RESET  */
+
+
+body {
+    min-height: 100vh;
+    font-family: azo-sans-web, sans-serif;;
+    background: rgb(131,58,180);
+    background: linear-gradient(0deg, rgb(0, 255, 251) 0%, rgb(0, 38, 255) 50%, rgb(252, 69, 182) 100%);
+}
+
+.glass {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    grid-gap: 30px;
+    padding: 30px;
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    background: white;
+    background: linear-gradient(to right bottom,
+     rgba(255, 255, 255, 0.7), 
+     rgba(255, 255, 255,0.3)
+     );
+    border-radius: 2rem;
+    z-index: 2;
+    backdrop-filter: blur(2rem);
+}
+
+.header {
+    font-size: 3rem;
+    background: white;
+    background: linear-gradient(to right bottom,
+     rgba(255, 255, 255, 0.7), 
+     rgba(255, 255, 255,0.3)
+     );
+    border-radius: 2rem;
+    z-index: 3;
+    backdrop-filter: blur(2rem);
+    padding: 3rem;
+}
+
+.form {
+    font-size: 2rem;
+    background: white;
+    background: linear-gradient(to right bottom,
+     rgba(255, 255, 255, 0.7), 
+     rgba(255, 255, 255,0.3)
+     );
+    border-radius: 2rem;
+    z-index: 3;
+    backdrop-filter: blur(2rem);
+    padding: 3rem;
+}
+
+input {
+     font-family: Poppins;
+    font-size: 20px;
+}
+
+.contact-details {
+    font-size: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 5px;
+    background: white;
+    background: linear-gradient(to right bottom,
+     rgba(255, 255, 255, 0.7), 
+     rgba(255, 255, 255,0.3)
+     );
+    border-radius: 2rem;
+    z-index: 3;
+    backdrop-filter: blur(2rem);
+    padding: 3rem;
+}
+.details-email {
+    padding-left: 3px;
+    padding-right: 3px;
+    border-left: 2px solid black ;
+    border-right: 2px solid black;
+}
+#contact-details-close {
+    cursor: pointer;
+    color: black;
+    background: white;
+    background: linear-gradient(to right bottom,
+    rgba(255, 255, 255, 0.7), 
+    rgba(255, 255, 255,0.3)
+    );
+    border-radius: 1rem;
+    z-index: 3;
+    backdrop-filter: blur(2rem);
+    padding: 1rem;
+    margin-left: 1rem;
+}
+
+.list-group {
+    background: white;
+    background: linear-gradient(to right bottom,
+     rgba(255, 255, 255, 0.7), 
+     rgba(255, 255, 255,0.3)
+     );
+    border-radius: 2rem;
+    z-index: 2;
+    backdrop-filter: blur(2rem);
+    padding: 2rem;
+}
+
+.list-group-item {
+    font-size: 1.5rem;
+    cursor: pointer;
+    margin-top: 1rem;
+    background: white;
+    background: linear-gradient(to right bottom,
+     rgba(255, 255, 255, 0.7), 
+     rgba(255, 255, 255,0.3)
+     );
+    border-radius: 2rem;
+    z-index: 3;
+    backdrop-filter: blur(2rem);
+    padding: 1.5rem;
+}
